@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+.app {
+    text-align: center;
+}
+
+body {
+    background-color: aqua;
+}
+
+.heading {
+    color: midnightblue;
+}
+
+.whole-cart {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.all-products {
+    border-style: solid;
+    border-width: 5px;
+    border-right-width: 2.5px;
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.cart {
+    border-style: solid;
+    border-width: 5px;
+    padding: 20px;
+    width: 40%;
+    border-left-width: 2.5px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.button {
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    font-size: 15px;
+    background-color: black;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.all-items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: black;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.item {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.items > h1, h3 {
+    color: white;
+}
+
+h1 {
+    color: black;
+}
